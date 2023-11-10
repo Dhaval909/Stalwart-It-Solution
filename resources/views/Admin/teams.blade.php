@@ -1,0 +1,20 @@
+@extends('Admin.layout1')
+@section('content')
+<table>
+    <tr>
+        <th>
+            <tr>Name</tr>
+            <tr>Image</tr>
+            <tr>Designation</tr>
+            <tr>Paragraph</tr>
+        </th>
+    </tr>
+
+    <tr>
+        <td>aaa</td>
+        <td>sdfjsh</td>
+        <td>kdfk</td>
+        <td>sjkfjsjfsj</td>
+    </tr>
+</table>
+@endsection

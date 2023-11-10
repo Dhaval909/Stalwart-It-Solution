@@ -1,0 +1,155 @@
+.footer-contact iframe {
+    border-radius: 20px;
+}
+
+.navbar-mobile .getstarted,
+.navbar-mobile .getstarted:focus {
+    margin: 15px;
+    justify-content: center;
+}
+
+.portfolio .portfolio-wrap {
+    display: flex;
+    justify-content: center;
+}
+
+/* .portfolio .portfolio-wrap .portfolio-info {
+    width: 250px;
+} */
+
+.portfolio .portfolio-wrap .portfolio-info {
+    left: 53px;
+    height: 250px;
+    width: 250px;
+}
+
+@media screen and (min-width: 400px) and (max-width: 900px) {
+    .portfolio .portfolio-wrap .portfolio-info {
+        left: 90px;
+    }
+}
+
+.contact .info-box {
+    height: 265px;
+}
+
+.teamimg {
+    height: 300px;
+    width: 300px;
+    object-fit: cover;
+}
+
+.portimg {
+    border-radius: 40px;
+    height: 250px;
+    width: 250px;
+}
+
+.check {
+    list-style: circle;
+}
+
+.h2-title {
+    font-size: 1.5rem;
+}
+
+.emp-skils {
+    justify-content: center;
+}
+
+.emp-skil p img {
+    padding: 6px;
+    width: 50px;
+    height: auto;
+    border-radius: 50%;
+    margin-right: 15px;
+    /* background: rgb(226 148 132 / 100%); */
+    background: linear-gradient(135deg, #182fa3, rgb(102, 102, 219));
+}
+
+.btn-get-started {
+    margin-top: 30px;
+    line-height: 0;
+    padding: 15px 40px;
+    border-radius: 4px;
+    transition: 0.3s;
+    color: #fff;
+    background: #4154f1;
+    box-shadow: 0px 5px 30px rgba(65, 84, 241, 0.4);
+}
+.btn-get-started span {
+    font-family: "Nunito", sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+.btn-get-started i {
+    margin-left: 5px;
+    font-size: 18px;
+    transition: 0.3s;
+}
+.btn-get-started:hover i {
+    transform: translateX(5px);
+}
+
+.imgzoom {
+    border-radius: 20px;
+}
+.imgcolor {
+    filter: hue-rotate(31deg);
+}
+
+.plus {
+    display: inline !important;
+}
+
+.title h6 {
+    display: inline-block;
+    height: 36px;
+    padding: 2px 12px 0 10px;
+    font-size: 15px;
+    line-height: 35px;
+    display: inline-block;
+    margin-bottom: 20px;
+    font-weight: 600;
+    background: rgb(226 148 132 / 20%);
+}
+
+.sub-title-box.left p {
+    margin-top: 10px;
+    padding: 0;
+    font-size: 38px;
+    line-height: 42px;
+    font-weight: 700;
+    color: #012970;
+    display: block;
+}
+
+.hcenter {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 30px 50px 30px 70px;
+}
+
+.img-pad {
+    padding: 0 82px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-mar {
+    margin: 70px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.img-mar img {
+    border-radius: 30px;
+    opacity: 0.9;
+}
+
+#loom-companion-mv3 section {
+    padding: 0;
+}
