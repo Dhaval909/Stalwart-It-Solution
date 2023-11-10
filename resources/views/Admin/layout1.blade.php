@@ -9,7 +9,7 @@
     <meta content="" name="description">
 
     {{-- Favicon --}}
-    <link href="{{url('./Frontend/assets/img/stalwartitsolutionlogo1.png')}}" rel="icon">
+    <link href="{{asset('Frontend/assets/img/stalwartitsolutionlogo1.png')}}" rel="icon">
 
     {{-- Google Web Fonts --}}
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -21,14 +21,14 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
 
     {{-- Libraries Stylesheet --}}
-    <link href="{{ url('./Admin_assets/lib/owlcarousel/assets/owl.carousel.min.css') }}" rel="stylesheet">
-    <link href="{{ url('./Admin_assets/lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css') }}" rel="stylesheet" />
+    <link href="{{ asset('Admin_assets/lib/owlcarousel/assets/owl.carousel.min.css') }}" rel="stylesheet">
+    <link href="{{ asset('Admin_assets/lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css') }}" rel="stylesheet" />
 
     {{-- Customized Bootstrap Stylesheet --}}
-    <link href="{{ url('./Admin_assets/css/bootstrap.min.css') }}" rel="stylesheet">
+    <link href="{{ asset('Admin_assets/css/bootstrap.min.css') }}" rel="stylesheet">
 
     {{-- Template Stylesheet --}}
-    <link href="{{ url('./Admin_assets/css/style.css') }}" rel="stylesheet">
+    <link href="{{ asset('Admin_assets/css/style.css') }}" rel="stylesheet">
 </head>
 
 <body>
@@ -48,7 +48,7 @@
 
                 <div class="d-flex align-items-center ms-4 mb-4">
                     <div class="position-relative">
-                        <img class="rounded-circle" src="{{ url('./Admin_assets/img/user.jpg') }}" alt="" style="width: 40px; height: 40px;">
+                        <img class="rounded-circle" src="{{ asset('Admin_assets/img/user.jpg') }}" alt="" style="width: 40px; height: 40px;">
                         <div class="bg-success rounded-circle border border-2 border-white position-absolute end-0 bottom-0 p-1"></div>
                     </div>
                     <div class="ms-3">
@@ -117,7 +117,7 @@
                     </div>
                     <div class="nav-item dropdown">
                         <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">
-                            <img class="rounded-circle me-lg-2" src="{{ url('./Admin_assets/img/user.jpg') }}" alt="" style="width: 40px; height: 40px;">
+                            <img class="rounded-circle me-lg-2" src="{{ asset('Admin_assets/img/user.jpg') }}" alt="" style="width: 40px; height: 40px;">
                             <span class="d-none d-lg-inline-flex">John Doe</span>
                         </a>
                         <div class="dropdown-menu dropdown-menu-end bg-light border-0 rounded-0 rounded-bottom m-0">
@@ -142,16 +142,16 @@
     {{-- JavaScript Libraries --}}
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="{{ url('./Admin_assets/lib/chart/chart.min.js') }}"></script>
-    <script src="{{ url('./Admin_assets/lib/easing/easing.min.js') }}"></script>
-    <script src="{{ url('./Admin_assets/lib/waypoints/waypoints.min.js') }}"></script>
-    <script src="{{ url('./Admin_assets/lib/owlcarousel/owl.carousel.min.js') }}"></script>
-    <script src="{{ url('./Admin_assets/lib/tempusdominus/js/moment.min.js') }}"></script>
-    <script src="{{ url('./Admin_assets/lib/tempusdominus/js/moment-timezone.min.js') }}"></script>
-    <script src="{{ url('./Admin_assets/lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js') }}"></script>
+    <script src="{{ asset('Admin_assets/lib/chart/chart.min.js') }}"></script>
+    <script src="{{ asset('Admin_assets/lib/easing/easing.min.js') }}"></script>
+    <script src="{{ asset('Admin_assets/lib/waypoints/waypoints.min.js') }}"></script>
+    <script src="{{ asset('Admin_assets/lib/owlcarousel/owl.carousel.min.js') }}"></script>
+    <script src="{{ asset('Admin_assets/lib/tempusdominus/js/moment.min.js') }}"></script>
+    <script src="{{ asset('Admin_assets/lib/tempusdominus/js/moment-timezone.min.js') }}"></script>
+    <script src="{{ asset('Admin_assets/lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js') }}"></script>
 
     {{-- Template Javascript --}}
-    <script src="{{ url('./Admin_assets/js/main.js') }}"></script>
+    <script src="{{ asset('Admin_assets/js/main.js') }}"></script>
 </body>
 
 </html>

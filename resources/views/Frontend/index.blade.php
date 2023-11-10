@@ -602,7 +602,7 @@
     {{-- End Recent Blog Posts Section --}}
 
     {{-- ======= Contact Section ======= --}}
-    @include('Frontend.contact_section')
+    <!-- @include('Frontend.contact_section') -->
     {{-- EndContactSection --}}
 
   </main>{{-- End#main --}}

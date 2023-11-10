@@ -9,6 +9,6 @@ class NativeappsController extends Controller
 {
     public function index()
     {
-        return view('Frontend.Nativeapps');
+        return view('Frontend.nativeapps');
     }
 }

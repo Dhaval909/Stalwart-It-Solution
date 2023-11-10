@@ -14,7 +14,7 @@
             <div class="col-lg-6 wow right-animation" data-wow-delay="0.2s">
                 <div class="about-img">
                     <img width="700" height="636"
-                        src="{{url('/Frontend/assets/img/web.jpg')}}" class="img-fluid" alt="">
+                        src="{{asset('Frontend/assets/img/web.jpg')}}" class="img-fluid" alt="">
 
                 </div>
             </div>
@@ -27,20 +27,20 @@
 
                         <div class="emp-skils emp-skil">
                             <div class="emp-skils-left">
-                                <p><img src="{{url('./Frontend/assets/img/PHP.svg')}}"
+                                <p><img src="{{asset('Frontend/assets/img/PHP.svg')}}"
                                     alt="Top Rated PHP developers" width="80px">Php</p>
-                                    <p><img src="{{url('./Frontend/assets/img/codeigniter.svg')}}"
+                                    <p><img src="{{asset('Frontend/assets/img/codeigniter.svg')}}"
                                         alt="Top Rated Codeignitor developers" height="30px">CodeIgniter</p>
-                                        <p><img src="{{url('./Frontend/assets/img/laravel.svg')}}"
+                                        <p><img src="{{asset('Frontend/assets/img/laravel.svg')}}"
                                             alt="Laravel pro developers" width="90px">Laravel</p>
                             </div>
                             <div class="emp-skils-right">
-                                <p><img src="{{url('./Frontend/assets/img/node.svg')}}"
+                                <p><img src="{{asset('Frontend/assets/img/node.svg')}}"
                                         alt="Top Rated Node.js developers" height="30px">Nodejs</p>
-                                        <p><img src="{{url('./Frontend/assets/img/wordpress.svg')}}"
+                                        <p><img src="{{asset('Frontend/assets/img/wordpress.svg')}}"
                                             alt="Top Rated Wordpress developers" height="25px">WordPress </p>
 
-                                    <p><img src="{{url('./Frontend/assets/img/shopify.svg')}}"
+                                    <p><img src="{{asset('Frontend/assets/img/shopify.svg')}}"
                                         alt="Top Rated React.js developers" height="25px" width="30px">Shopify</p>
 
                             </div>
@@ -71,7 +71,7 @@
         <div class="col-md-12">
             <div class="row">
                 <div class="col-md-6 img-pad">
-                    <img src="{{url('./Frontend/assets/img/img2.jpg')}}"  alt="Website Development Company in London" height="350px;">
+                    <img src="{{asset('Frontend/assets/img/img2.jpg')}}"  alt="Website Development Company in London" height="350px;">
                 </div>
                 <div class="col-md-6 hcenter">
                     <div class="title mt-1">
@@ -96,7 +96,7 @@
             <div class="row">
                 <div class="col-md-6 order-md-1">
                     <div class="img">
-                        <img src="{{url('./Frontend/assets/img/home-4.jpg')}}" alt="Affordable Website Development Company in NJ" height="300px">
+                        <img src="{{asset('Frontend/assets/img/home-4.jpg')}}" alt="Affordable Website Development Company in NJ" height="300px">
                     </div>
                 </div>
                 <div class="col-md-6 hcenter order-md-0">
@@ -118,7 +118,7 @@
         <div class="col-md-12">
             <div class="row">
                 <div class="col-md-6 img-pad">
-                    <img src="{{url('./Frontend/assets/img/web.jpg')}}" >
+                    <img src="{{asset('Frontend/assets/img/web.jpg')}}" >
                 </div>
                 <div class="col-md-6 hcenter">
                     <div class="title mt-4">
@@ -144,7 +144,7 @@
                 
                 <div class="col-md-6 order-md-1">
                     <div class="img img-mar">
-                        <img src="{{url('./Frontend/assets/img/revision.jpg')}}" height="200px" >
+                        <img src="{{asset('Frontend/assets/img/revision.jpg')}}" height="200px" >
                     </div>
                 </div>
                 <div class="col-md-6 hcenter order-md-0">
@@ -164,7 +164,7 @@
         <div class="col-md-12">
             <div class="row">
                 <div class="col-md-6 img-mar">
-                    <img src="{{url('./Frontend/assets/img/test.jpg')}}" alt="Process Images" height="300px">
+                    <img src="{{asset('Frontend/assets/img/test.jpg')}}" alt="Process Images" height="300px">
                 </div>
                 <div class="col-md-6 hcenter">
                     <div class="title mt-4">
@@ -189,7 +189,7 @@
                 
                 <div class="col-md-6 order-md-1">
                     <div class="img img-mar">
-                        <img class="imgcolor" src="{{url('./Frontend/assets/img/launch.svg')}}" alt="Process Images" height="300px">
+                        <img class="imgcolor" src="{{asset('Frontend/assets/img/launch.svg')}}" alt="Process Images" height="300px">
                     </div>
                 </div>
                 <div class="col-md-6 hcenter order-md-0">

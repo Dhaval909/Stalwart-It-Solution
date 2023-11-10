@@ -12,7 +12,7 @@
             <div class="col-lg-6 wow right-animation" data-wow-delay="0.2s">
                 <div class="about-img">
                     <img width="700" height="636"
-                        src="{{url('/Frontend/assets/img/web.jpg')}}" class="img-fluid" alt="">
+                        src="{{asset('Frontend/assets/img/web.jpg')}}" class="img-fluid" alt="">
 
                 </div>
             </div>
@@ -25,11 +25,11 @@
 
                         <div class="emp-skils emp-skil">
                             <div class="emp-skils-left">
-                                 <p><img src="{{url('./Frontend/assets/img/flutter.svg')}}"
+                                 <p><img src="{{asset('Frontend/assets/img/flutter.svg')}}"
                                         alt="Top Rated Node.js developers" height="30px">Flutter</p>
                             </div>
                             <div class="emp-skils-right">
-                                 <p><img src="{{url('./Frontend/assets/img/native.svg')}}"
+                                 <p><img src="{{asset('Frontend/assets/img/native.svg')}}"
                                             alt="Top Rated Wordpress developers" height="25px">React Native </p>
 
                             </div>
@@ -74,7 +74,7 @@
         <div class="col-md-12">
             <div class="row">
                 <div class="col-md-6 img-pad">
-                    <img src="{{url('./Frontend/assets/img/Flutter.jpg')}}"  alt="Website Development Company in London" height="200px;" class="imgzoom">
+                    <img src="{{asset('Frontend/assets/img/Flutter.jpg')}}"  alt="Website Development Company in London" height="200px;" class="imgzoom">
                 </div>
                 <div class="col-md-6 hcenter">
                     <div class="title mt-1">
@@ -101,7 +101,7 @@
               
                 <div class="col-md-6 img-pad order-md-1">
                     <div class="img ">
-                        <img src="{{url('./Frontend/assets/img/native-latest.webp')}}" alt="Affordable Website Development Company in NJ" height="250px" class="imgzoom">
+                        <img src="{{asset('Frontend/assets/img/native-latest.webp')}}" alt="Affordable Website Development Company in NJ" height="250px" class="imgzoom">
                     </div>
                 </div>
                   <div class="col-md-6 hcenter order-md-0">
@@ -129,7 +129,7 @@
         <div class="col-md-12">
             <div class="row">
                 <div class="col-md-6 img-pad">
-                    <img src="{{url('./Frontend/assets/img/web.jpg')}}">
+                    <img src="{{asset('Frontend/assets/img/web.jpg')}}">
                 </div>
                 <div class="col-md-6 hcenter">
                     <div class="title mt-4">
@@ -161,7 +161,7 @@
                 </div>
                 <div class="col-md-6">
                     <div class="img img-mar">
-                        <img src="{{url('./Frontend/assets/img/revision.jpg')}}" height="300px" >
+                        <img src="{{asset('Frontend/assets/img/revision.jpg')}}" height="300px" >
                     </div>
                 </div>
             </div>
@@ -174,7 +174,7 @@
         <div class="col-md-12">
             <div class="row">
                 <div class="col-md-6 img-mar">
-                    <img src="{{url('./Frontend/assets/img/test.jpg')}}" alt="Process Images" height="300px">
+                    <img src="{{asset('Frontend/assets/img/test.jpg')}}" alt="Process Images" height="300px">
                 </div>
                 <div class="col-md-6 hcenter">
                     <div class="title mt-4">
@@ -207,7 +207,7 @@
                 </div>
                 <div class="col-md-6">
                     <div class="img img-mar">
-                        <img src="{{url('./Frontend/assets/img/processimages.jpg')}}" alt="Process Images" height="300px">
+                        <img src="{{asset('Frontend/assets/img/processimages.jpg')}}" alt="Process Images" height="300px">
                     </div>
                 </div>
             </div>

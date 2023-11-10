@@ -1,19 +1,19 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\frontend\HomeController;
-use App\Http\Controllers\frontend\blogController;
-use App\Http\Controllers\frontend\blogsingleController;
-use App\Http\Controllers\frontend\innerpageController;
-use App\Http\Controllers\frontend\aboutController;
-use App\Http\Controllers\frontend\contactusController;
-use App\Http\Controllers\frontend\portfolioController;
-use App\Http\Controllers\frontend\teamController;
-use App\Http\Controllers\frontend\webdevlopmentController;
-use App\Http\Controllers\frontend\NativeappsController;
-use App\Http\Controllers\frontend\CrossplatformController;
-use App\Http\Controllers\frontend\wireframeController;
-use App\Http\Controllers\frontend\hiredevloperController;
+use App\Http\Controllers\Frontend\HomeController;
+use App\Http\Controllers\Frontend\blogController;
+use App\Http\Controllers\Frontend\blogsingleController;
+use App\Http\Controllers\Frontend\innerpageController;
+use App\Http\Controllers\Frontend\aboutController;
+use App\Http\Controllers\Frontend\contactusController;
+use App\Http\Controllers\Frontend\portfolioController;
+use App\Http\Controllers\Frontend\teamController;
+use App\Http\Controllers\Frontend\webdevlopmentController;
+use App\Http\Controllers\Frontend\NativeappsController;
+use App\Http\Controllers\Frontend\CrossplatformController;
+use App\Http\Controllers\Frontend\wireframeController;
+use App\Http\Controllers\Frontend\hiredevloperController;
 use App\Http\Controllers\Admin\ContactUsFormController;
 use App\Http\Controllers\Admin\AdminController;
 use App\Http\Controllers\Admin\BlogsController;

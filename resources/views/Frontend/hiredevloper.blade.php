@@ -12,7 +12,7 @@
             <div class="col-lg-6 wow right-animation" data-wow-delay="0.2s">
                 <div class="about-img">
                     <img width="700" height="636"
-                        src="{{url('/Frontend/assets/img/hire2.jpg')}}" class="img-fluid" alt="">
+                        src="{{asset('Frontend/assets/img/hire2.jpg')}}" class="img-fluid" alt="">
 
                 </div>
             </div>
@@ -25,20 +25,20 @@
                         <p>Stalwart It Solution is one of the leading Web/ App solution providers specializing in website development. Stalwart It Solution is Proud of having development experts with Skills like:</p>
                          <div class="emp-skils emp-skil">
                             <div class="emp-skils-left">
-                                <p><img src="{{url('./Frontend/assets/img/PHP.svg')}}"
+                                <p><img src="{{asset('Frontend/assets/img/PHP.svg')}}"
                                     alt="Top Rated PHP developers" width="80px">Php</p>
-                                    <p><img src="{{url('./Frontend/assets/img/ios.svg')}}"
+                                    <p><img src="{{asset('Frontend/assets/img/ios.svg')}}"
                                         alt="Top Rated Codeignitor developers" height="30px">IOS</p>
-                                        <p><img src="{{url('./Frontend/assets/img/laravel.svg')}}"
+                                        <p><img src="{{asset('Frontend/assets/img/laravel.svg')}}"
                                             alt="Laravel pro developers" width="90px">Laravel</p>
                             </div>
                             <div class="emp-skils-right">
-                                <p><img src="{{url('./Frontend/assets/img/node.svg')}}"
+                                <p><img src="{{asset('Frontend/assets/img/node.svg')}}"
                                         alt="Top Rated Node.js developers" height="30px">Nodejs</p>
-                                        <p><img src="{{url('./Frontend/assets/img/android.svg')}}"
+                                        <p><img src="{{asset('Frontend/assets/img/android.svg')}}"
                                     alt="Top Rated PHP developers" width="80px">Android</p>
 
-                                    <p><img src="{{url('./Frontend/assets/img/shopify.svg')}}"
+                                    <p><img src="{{asset('Frontend/assets/img/shopify.svg')}}"
                                         alt="Top Rated React.js developers" height="25px" width="30px">Shopify</p>
 
                             </div>
@@ -66,7 +66,7 @@
         <div class="col-md-12">
             <div class="row">
                 <div class="col-md-6 img-pad">
-                    <img src="{{url('./Frontend/assets/img/hire.jpg')}}"  alt="Hire Developer " height="230px;">
+                    <img src="{{asset('Frontend/assets/img/hire.jpg')}}"  alt="Hire Developer " height="230px;">
                 </div>
                 <div class="col-md-6 hcenter">
                     <!-- <div class="title mt-1">
@@ -91,7 +91,7 @@
             <div class="row">
                 <div class="col-md-6 order-md-2 ">
                    <div class="img">
-                        <img src="{{url('./Frontend/assets/img/why.png')}}" alt="Why Chosse us" height="300px">
+                        <img src="{{asset('Frontend/assets/img/why.png')}}" alt="Why Chosse us" height="300px">
                     </div>
                 </div>
                 <div class="col-md-6 order-md-1 hcenter">
@@ -135,7 +135,7 @@
         <div class="col-md-12">
             <div class="row">
                 <div class="col-md-6 img-pad">
-                    <img src="{{url('./Frontend/assets/img/web.jpg')}}">
+                    <img src="{{asset('Frontend/assets/img/web.jpg')}}">
                 </div>
                 <div class="col-md-6 hcenter">
                     <div class="title mt-4">
@@ -167,7 +167,7 @@
                 </div>
                 <div class="col-md-6">
                     <div class="img img-mar">
-                        <img src="{{url('./Frontend/assets/img/revision.jpg')}}" height="300px" >
+                        <img src="{{asset('Frontend/assets/img/revision.jpg')}}" height="300px" >
                     </div>
                 </div>
             </div>
@@ -180,7 +180,7 @@
         <div class="col-md-12">
             <div class="row">
                 <div class="col-md-6 img-mar">
-                    <img src="{{url('./Frontend/assets/img/test.jpg')}}" alt="Process Images" height="300px">
+                    <img src="{{asset('Frontend/assets/img/test.jpg')}}" alt="Process Images" height="300px">
                 </div>
                 <div class="col-md-6 hcenter">
                     <div class="title mt-4">
@@ -213,7 +213,7 @@
                 </div>
                 <div class="col-md-6">
                     <div class="img img-mar">
-                        <img src="{{url('./Frontend/assets/img/processimages.jpg')}}" alt="Process Images" height="300px">
+                        <img src="{{asset('Frontend/assets/img/processimages.jpg')}}" alt="Process Images" height="300px">
                     </div>
                 </div>
             </div>
