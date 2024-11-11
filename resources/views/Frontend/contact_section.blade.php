@@ -17,21 +17,21 @@
                 <div class="info-box">
                   <a href="https://maps.app.goo.gl/TXbCDjneoLBDjSVL7" target="_blank"><i class="bi bi-geo-alt"></i></a>
                   <h3>Address</h3>
-                  <p><a href="https://maps.app.goo.gl/TXbCDjneoLBDjSVL7" target="_blank">Stalwart It Solution, B-816, Stratum @Venus Ground, Opp. Jhansi ki rani BRTS bus stand, Nehrunagar, Ahmedabad, Gujarat, India</a></p>
+                  <p><a class="acolor" href="https://maps.app.goo.gl/TXbCDjneoLBDjSVL7" target="_blank">Stalwart It Solution, B-816, Stratum @Venus Ground, Opp. Jhansi ki rani BRTS bus stand, Nehrunagar, Ahmedabad, Gujarat, India</a></p>
                 </div>
               </div>
               <div class="col-md-6">
                 <div class="info-box">
                   <a href="tel:+919016701277" title="call on 91 9016701277"><i class="bi bi-telephone"></i></a>
                   <h3>Call Us</h3>
-                  <p><a href="tel:+919016701277" title="call on 91 9016701277">+91 9016701277 </a></p>
+                  <p><a class="acolor" href="tel:+919016701277" title="call on 91 9016701277">+91 9016701277 </a></p>
                 </div>
               </div>
               <div class="col-md-6">
                 <div class="info-box">
                   <a href="mailto:kartik@stalwartitsolution.com"title="mail on kartik@stalwartitsolution.com"><i class="bi bi-envelope"></i></a>
                   <h3>Email Us</h3>
-                  <p><a href="mailto:kartik@stalwartitsolution.com"title="mail on kartik@stalwartitsolution.com">kartik@stalwartitsolution.com</a></p>
+                  <p><a class="acolor" href="mailto:kartik@stalwartitsolution.com"title="mail on kartik@stalwartitsolution.com">kartik@stalwartitsolution.com</a></p>
                 </div>
               </div>
               <div class="col-md-6">

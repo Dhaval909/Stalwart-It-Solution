@@ -32,7 +32,7 @@
           <div class="col-lg-4 col-md-6 d-flex align-items-stretch justify-content-center" data-aos="fade-up" data-aos-delay="300">
             <div class="member">
               <div class="member-img">
-                <img src="{{asset('Frontend/assets/img/team/gopalbhai.png')}}" class="img-fluid teamimg" alt="gopalbhai">
+                <img src="{{asset('Frontend/assets/img/team/gopal-arora.jpg')}}" class="img-fluid teamimg" alt="gopalbhai">
                 <!-- <div class="social">
                   <a href=""><i class="bi bi-twitter"></i></a>
                   <a href=""><i class="bi bi-facebook"></i></a>
